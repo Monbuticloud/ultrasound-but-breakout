@@ -30,9 +30,9 @@ basic.forever(function () {
         pins.digitalWritePin(DigitalPin.P2, 0)
         basic.showLeds(`
             . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
+            . . # . .
+            . # . # .
+            . . # . .
             . . . . .
             `)
     }
